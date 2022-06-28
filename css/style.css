@@ -1,0 +1,14 @@
+.borderBottomBlack{
+    border-bottom: solid 3px black;
+}
+.main{
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.footer{
+    height: 50px;
+    color:white;
+    text-align: center;
+    border-top: solid 3px black;
+    border-bottom: solid 3px black;
+}
