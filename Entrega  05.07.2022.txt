@@ -1,0 +1,3 @@
+"Crear un algoritmo utilizando un ciclo"
+La idea de este algoritmo es utilizar el ciclo while de manera infinita y salir del mismo cuando el usuario ingresa una palabra puntual
+Para agregar un poco de dificultad a este desafio se implemento una funcion flecha! 
