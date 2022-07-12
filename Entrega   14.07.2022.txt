@@ -1,0 +1,1 @@
+Se aplico todo lo visto junto a una funcion de orden superior, con el fin de identificar el producto sin stock
