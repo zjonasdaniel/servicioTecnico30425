@@ -1,1 +1,0 @@
-Se modifico el HTML utilizando DOM, visualizando el valor de el array con productos

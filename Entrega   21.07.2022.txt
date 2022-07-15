@@ -1,0 +1,1 @@
+Se cambio todo el proyecyo para adaptarse a eventos y reacciones sin la necesidad del uso de consola y alertas
