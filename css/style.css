@@ -2,8 +2,64 @@
     border-bottom: solid 3px black;
 }
 .main{
-    height: 100vh;
-    background-color: antiquewhite;
+    height: 90vh;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tiendaVenda{
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tituloElementosventa{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+}
+.elementosVenta{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.elemento1,.elemento2,.elemento3{
+    height: 100%;
+    width: 30%;
+    border: solid white 5px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.elemento1Datos,.elemento2Datos,.elemento3Datos{
+    height: 70%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.356);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.elemento1Boton,.elemento2Boton,.elemento3Boton{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
 .footer{
     height: 50px;
