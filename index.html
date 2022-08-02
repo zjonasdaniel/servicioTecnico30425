@@ -47,25 +47,35 @@
 
     <!-- MainContent -->
     <section class="main">
+      <div class="carritoCompras">
+        <div class="iconoMenu">
+          <img class="iconoMenu2" src="/Imagenes/carrtoNegro.png" id="iconoMenu" />
+          <img class="iconoNotificacion" src="/Imagenes/circuloRojo.png" id="iconoNotificacion">
+        </div>
+        <div class="contenidoMenu activo" id="menu">
+          <ul id="itemMenu">
+          </ul>
+        </div>
+      </div>
       <div class="tiendaVenda">
-        <div class="tituloElementosventa"> TIENDA DE ARTICULOS </div>
+        <div class="tituloElementosventa">TIENDA DE ARTICULOS</div>
         <div class="elementosVenta">
           <div class="elemento1">
             <div class="elemento1Datos" id="elemento1Datos"></div>
             <div class="elemento1Boton">
-              <button id="boton1"> COMPRAR</button>
+              <button class="boton" id="boton1">COMPRAR</button>
             </div>
           </div>
           <div class="elemento2">
             <div class="elemento2Datos" id="elemento2Datos"></div>
             <div class="elemento2Boton">
-              <button id="boton2"> COMPRAR</button>
+              <button class="boton" id="boton2">COMPRAR</button>
             </div>
           </div>
           <div class="elemento3">
             <div class="elemento3Datos" id="elemento3Datos"></div>
             <div class="elemento3Boton">
-              <button id="boton3"> COMPRAR</button>
+              <button class="boton" id="boton3">COMPRAR</button>
             </div>
           </div>
         </div>
@@ -77,6 +87,8 @@
       <h2>FOOTER</h2>
     </section>
 
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script>
     <script src="./javaScript/main.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"

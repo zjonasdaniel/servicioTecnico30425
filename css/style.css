@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .borderBottomBlack{
     border-bottom: solid 3px black;
 }
@@ -7,6 +12,51 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+.carritoCompras{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.iconoMenu{
+    position: relative;
+    right: 20px;
+    z-index: 10;
+    padding: 5px;
+}
+.iconoMenu2{
+    width: 40px;
+    cursor: pointer;
+}
+.iconoNotificacion{
+    width: 20px;
+    cursor: pointer;
+    position: absolute;
+    left: 32px;
+}
+.contenidoMenu{
+    background-color: rgba(0, 0, 255, 0.356);
+    border-radius: 10px;
+    width: 200px;
+    position: absolute;
+    right: 10px;
+    transition: all 0s ease;
+
+}
+.contenidoMenu ul{
+    padding: 60px 0px 20px 0px;
+    list-style: none;
+}
+.contenidoMenu ul li{
+    color: white;
+    display: block;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+.activo{
+    transform: translate(-3000px);
 }
 .tiendaVenda{
     height: 80%;
@@ -67,4 +117,8 @@
     text-align: center;
     border-top: solid 3px black;
     border-bottom: solid 3px black;
+}
+.boton:hover{
+    background-color: rgba(71, 170, 71, 0.445);
+    transition: 0.5s;
 }
