@@ -33,23 +33,7 @@ fetch("./data.json")
     console.log(e);
   });
 
-const productos = [
-  {
-    nombre: producto1.nombre,
-    cantidad: producto1.cantidad,
-    precio: producto1.precio,
-  },
-  {
-    nombre: producto2.nombre,
-    cantidad: producto2.cantidad,
-    precio: producto2.precio,
-  },
-  {
-    nombre: producto3.nombre,
-    cantidad: producto3.cantidad,
-    precio: producto3.precio,
-  },
-];
+
 
 let contenedor1 = document.getElementById("elemento1Datos");
 let contenedor2 = document.getElementById("elemento2Datos");
@@ -138,3 +122,7 @@ const iconoMenu = document.getElementById("iconoMenu"),
 iconoMenu.addEventListener("click", (e) => {
   menu.classList.toggle("activo");
 });
+
+// Desestructuracion//
+const {nombre,cantidad} = producto1;
+console.log("ejemplo de desestructuracion nombre de producto 1: `"+nombre+"` cantidad de producto 1 : `"+cantidad+"`");
