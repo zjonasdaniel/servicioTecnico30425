@@ -1,0 +1,5 @@
+[
+    { "nombre" : "Teclado", "cantidad" : "10", "precio" : "$300"},
+    { "nombre" : "Mouse", "cantidad" : "10", "precio" : "$600"},
+    { "nombre" : "Monitor", "cantidad" : "0", "precio" : "$20000"}
+  ]
